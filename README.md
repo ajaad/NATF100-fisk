@@ -18,7 +18,7 @@ karakter blir satt basert på gjennomsnittstørrelsen til kjønnsmoden hunnfisk 
 ```bash
 $ cat fisk_data.csv | python3 ugedal_calc.py -g 2 -a 10 -w 25 -d 1.5 2>&1 | tee ugedal_val.csv | python3 ugedal_plot.py -c Ørret,r,X,Røye,b,o -o figure.eps
 ```
-# ugedal_calc
+### ugedal_calc
 
 Dette skriptet vil gi en tabell med de nødvendige koordinatene for å sette karakter.
 
@@ -28,7 +28,7 @@ Dette skriptet vil gi en tabell med de nødvendige koordinatene for å sette kar
 - -d = garnets høyde
 
 
-# ugedal_plot
+### ugedal_plot
 
 Dette skriptet vil bruke tabellen fra ugedal_calc.py til å produsere et plot.
 
